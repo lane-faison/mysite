@@ -1,0 +1,140 @@
+/* ==========================================================
+*******************       BACKGROUND       ******************
+========================================================== */
+
+body   {
+  background-color: #000;
+}
+
+/* ==========================================================
+*******************      ORDERED LISTS     ******************
+========================================================== */
+
+ul {
+  list-style-type:none;
+  padding:0;
+  overflow:hidden;
+  position:fixed;
+  background-color: #333;
+  top:0;
+  width:100%;
+}
+
+li {
+  font-family: 'Hammersmith One', sans-serif;
+  text-transform:uppercase;
+  float:right;
+  font-size:18px;
+  border-left:1px solid #bbb;
+}
+
+li a          {
+  display:block;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+li a:hover:not(.active) {
+  background-color:#4CAF50;
+  color:#FFF;
+  text-decoration:none;
+}
+
+.active {
+  background-color:#4CAF50;
+  color: #FFF;
+  text-decoration:none;
+}
+
+.me {
+  color: #4CAF50;
+  text-transform: uppercase;
+  font-size: 72px;
+  letter-spacing:20px;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#theme {
+  font-family:  'Hammersmith One', sans-serif;
+  font-size: 22px;
+  letter-spacing: 2.4px;
+  color: white;
+  margin:20px 10% 0 10%;
+  text-align:center;
+}
+
+#theme2 {
+  font-family:  'Hammersmith One', sans-serif;
+  font-size: 32px;
+  letter-spacing: 2.4px;
+  color: #4CAF50;
+  padding:20px;
+  text-align:center;
+}
+
+#theme3 {
+  font-family:  'Hammersmith One', sans-serif;
+  font-size: 22px;
+  letter-spacing: 2.4px;
+  color: white;
+  padding:20px;
+  text-align:center;
+}
+
+#campus {
+  background-image: url("http://www.colorado.edu/images/panorama/campus-fall.jpg");
+  background-size:cover;
+  height:450px;
+}
+
+#campus:hover {
+  background-image: url("http://www.colorado.edu/images/panorama/campus-winter2009.jpg");
+  background-size:cover;
+  height:450px;
+}
+
+.skills {
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.skills .col {
+  float:left;
+  width:33%;
+  text-align:center;
+  font-family:'Hammersmith One', sans-serif;
+  letter-spacing:2.0px;
+  color:white;
+}
+
+.skills img {
+  height:72px;
+}
+
+.skills h2 {
+  color:#4CAF50
+}
+
+.mypics {
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.mypics .col {
+  float:left;
+  width:33%;
+}
+
+.mypics img {
+  height:360px;
+}
+
+footer {
+  color:white;
+  text-align:center;
+  margin-bottom:20px;
+}
